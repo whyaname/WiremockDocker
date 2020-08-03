@@ -1,0 +1,29 @@
+{
+  "id" : "fa6dac49-65ee-4437-93bc-480a62730a18",
+  "name" : "user_10",
+  "request" : {
+    "url" : "/user/10",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"results\":[{\"gender\":\"female\",\"name\":{\"title\":\"Ms\",\"first\":\"Astrid\",\"last\":\"Jørgensen\"},\"location\":{\"street\":{\"number\":4105,\"name\":\"Bragesvej\"},\"city\":\"Stoevring\",\"state\":\"Midtjylland\",\"country\":\"Denmark\",\"postcode\":29298,\"coordinates\":{\"latitude\":\"-36.4902\",\"longitude\":\"75.9740\"},\"timezone\":{\"offset\":\"-8:00\",\"description\":\"Pacific Time (US & Canada)\"}},\"email\":\"astrid.jorgensen@example.com\",\"login\":{\"uuid\":\"25d261c6-3dc5-4571-af5a-18bf9aa10306\",\"username\":\"redbutterfly587\",\"password\":\"eraser\",\"salt\":\"ZXuwDf69\",\"md5\":\"44b358770d43955a538c0f43029dcac0\",\"sha1\":\"270ade012f54ead1f3227c194efec7846be2842c\",\"sha256\":\"462c714d899550c6227eaa900361c129f53eca2b32f093c8b1e29b4a514d8502\"},\"dob\":{\"date\":\"1982-12-31T04:00:40.148Z\",\"age\":38},\"registered\":{\"date\":\"2019-03-09T21:56:20.186Z\",\"age\":1},\"phone\":\"66102032\",\"cell\":\"68961992\",\"id\":{\"name\":\"CPR\",\"value\":\"311282-0388\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/58.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/58.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/58.jpg\"},\"nat\":\"DK\"}],\"info\":{\"seed\":\"83508a5e61e02fb1\",\"results\":1,\"page\":1,\"version\":\"1.3\"}}",
+    "headers" : {
+      "Date" : "Mon, 03 Aug 2020 12:24:25 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Set-Cookie" : "__cfduid=d536db49deb83f8dc0953c43a5fdcb8bc1596457465; expires=Wed, 02-Sep-20 12:24:25 GMT; path=/; domain=.randomuser.me; HttpOnly; SameSite=Lax",
+      "X-Powered-By" : "Express",
+      "Cache-Control" : "no-cache",
+      "ETag" : "W/\"48b-ixB2C7Cze+kh6ts+DvnF+TseI9o\"",
+      "Vary" : "Accept-Encoding",
+      "CF-Cache-Status" : "DYNAMIC",
+      "cf-request-id" : "0455e0d0140000067a6b001200000001",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "5bd003f9bcaa067a-LHR"
+    }
+  },
+  "uuid" : "fa6dac49-65ee-4437-93bc-480a62730a18",
+  "persistent" : true,
+  "insertionIndex" : 22
+}

@@ -1,0 +1,29 @@
+{
+  "id" : "faf33195-0dff-4634-bc0e-1a17ac6929ff",
+  "name" : "user_2",
+  "request" : {
+    "url" : "/user/2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"results\":[{\"gender\":\"male\",\"name\":{\"title\":\"Mr\",\"first\":\"Donald\",\"last\":\"Perkins\"},\"location\":{\"street\":{\"number\":1248,\"name\":\"Northaven Rd\"},\"city\":\"Ballarat\",\"state\":\"Victoria\",\"country\":\"Australia\",\"postcode\":4217,\"coordinates\":{\"latitude\":\"-86.3779\",\"longitude\":\"-71.9346\"},\"timezone\":{\"offset\":\"-12:00\",\"description\":\"Eniwetok, Kwajalein\"}},\"email\":\"donald.perkins@example.com\",\"login\":{\"uuid\":\"4b0181dd-27a6-43d3-9c72-f06c48362889\",\"username\":\"heavydog947\",\"password\":\"scooby1\",\"salt\":\"kDPzl2lZ\",\"md5\":\"70c7ce132d496593532435fbf006b2c7\",\"sha1\":\"8cb979bb36b83c3c2e19deb3109c1765620bbcd9\",\"sha256\":\"03650d61b642ddee8dca93fcca7b78e46ba6c7503181effc854db3b30b21aef4\"},\"dob\":{\"date\":\"1944-12-12T20:44:41.140Z\",\"age\":76},\"registered\":{\"date\":\"2008-12-15T17:44:51.913Z\",\"age\":12},\"phone\":\"02-5131-5566\",\"cell\":\"0428-176-380\",\"id\":{\"name\":\"TFN\",\"value\":\"717055400\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/men/78.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/men/78.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/men/78.jpg\"},\"nat\":\"AU\"}],\"info\":{\"seed\":\"33a7d2eadfb2b1a6\",\"results\":1,\"page\":1,\"version\":\"1.3\"}}",
+    "headers" : {
+      "Date" : "Mon, 03 Aug 2020 12:23:06 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Set-Cookie" : "__cfduid=d547e6e8150760a1c3bac3903f83785281596457386; expires=Wed, 02-Sep-20 12:23:06 GMT; path=/; domain=.randomuser.me; HttpOnly; SameSite=Lax",
+      "X-Powered-By" : "Express",
+      "Cache-Control" : "no-cache",
+      "ETag" : "W/\"47d-72gRX7ixys+iyakuw4fXziy0xtw\"",
+      "Vary" : "Accept-Encoding",
+      "CF-Cache-Status" : "DYNAMIC",
+      "cf-request-id" : "0455df998e0000067a6b264200000001",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "5bd00208ea13067a-LHR"
+    }
+  },
+  "uuid" : "faf33195-0dff-4634-bc0e-1a17ac6929ff",
+  "persistent" : true,
+  "insertionIndex" : 12
+}

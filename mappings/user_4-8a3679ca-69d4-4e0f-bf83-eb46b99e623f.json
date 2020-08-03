@@ -1,0 +1,29 @@
+{
+  "id" : "8a3679ca-69d4-4e0f-bf83-eb46b99e623f",
+  "name" : "user_4",
+  "request" : {
+    "url" : "/user/4",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"results\":[{\"gender\":\"female\",\"name\":{\"title\":\"Miss\",\"first\":\"Patsy\",\"last\":\"Stephens\"},\"location\":{\"street\":{\"number\":256,\"name\":\"E Sandy Lake Rd\"},\"city\":\"Newport News\",\"state\":\"Alaska\",\"country\":\"United States\",\"postcode\":52239,\"coordinates\":{\"latitude\":\"84.2528\",\"longitude\":\"20.8094\"},\"timezone\":{\"offset\":\"+1:00\",\"description\":\"Brussels, Copenhagen, Madrid, Paris\"}},\"email\":\"patsy.stephens@example.com\",\"login\":{\"uuid\":\"cd370390-7c91-48c2-8928-c0d2703a87ba\",\"username\":\"orangepeacock131\",\"password\":\"bobcat\",\"salt\":\"VKeHWjVK\",\"md5\":\"6b6ce3761bb87929d199dcf41e3318b0\",\"sha1\":\"6f6c7db7772b88295fe34dbacc29ed06605fb5d7\",\"sha256\":\"718f6fcfe089877735cb27bd2f02369dcdb5908eb1fda5e03bd81d248c9aa9bd\"},\"dob\":{\"date\":\"1988-08-26T11:32:03.955Z\",\"age\":32},\"registered\":{\"date\":\"2005-02-08T22:25:41.168Z\",\"age\":15},\"phone\":\"(026)-547-6201\",\"cell\":\"(849)-802-6053\",\"id\":{\"name\":\"SSN\",\"value\":\"745-44-3420\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/women/47.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/women/47.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/women/47.jpg\"},\"nat\":\"US\"}],\"info\":{\"seed\":\"2807b3e7cfdd668a\",\"results\":1,\"page\":1,\"version\":\"1.3\"}}",
+    "headers" : {
+      "Date" : "Mon, 03 Aug 2020 12:23:09 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Set-Cookie" : "__cfduid=d6877a1379944ae9e1d2a928f2f4320841596457389; expires=Wed, 02-Sep-20 12:23:09 GMT; path=/; domain=.randomuser.me; HttpOnly; SameSite=Lax",
+      "X-Powered-By" : "Express",
+      "Cache-Control" : "no-cache",
+      "ETag" : "W/\"4a7-5SfU3OI4p8XRz3KjFRTJoOUIkk4\"",
+      "Vary" : "Accept-Encoding",
+      "CF-Cache-Status" : "DYNAMIC",
+      "cf-request-id" : "0455dfa42a0000067a6b334200000001",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "5bd00219dbe1067a-LHR"
+    }
+  },
+  "uuid" : "8a3679ca-69d4-4e0f-bf83-eb46b99e623f",
+  "persistent" : true,
+  "insertionIndex" : 14
+}

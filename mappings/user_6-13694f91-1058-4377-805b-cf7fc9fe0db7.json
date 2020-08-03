@@ -1,0 +1,29 @@
+{
+  "id" : "13694f91-1058-4377-805b-cf7fc9fe0db7",
+  "name" : "user_6",
+  "request" : {
+    "url" : "/user/6",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"results\":[{\"gender\":\"male\",\"name\":{\"title\":\"Monsieur\",\"first\":\"Willy\",\"last\":\"Garnier\"},\"location\":{\"street\":{\"number\":7866,\"name\":\"Rue Principale\"},\"city\":\"Gollion\",\"state\":\"Solothurn\",\"country\":\"Switzerland\",\"postcode\":5838,\"coordinates\":{\"latitude\":\"-48.8618\",\"longitude\":\"-89.4841\"},\"timezone\":{\"offset\":\"+1:00\",\"description\":\"Brussels, Copenhagen, Madrid, Paris\"}},\"email\":\"willy.garnier@example.com\",\"login\":{\"uuid\":\"f57cf5ac-a870-482e-886c-675e8222862b\",\"username\":\"happyrabbit484\",\"password\":\"kidrock\",\"salt\":\"NHCcIj3H\",\"md5\":\"2ab5d55a2f3d8d7445091b51aecc5e40\",\"sha1\":\"6feecacf4a66bbced29149dd082a1fc47614f318\",\"sha256\":\"4d52cf4478b0da97786945e91a8684b8ed5f4791c32d79748dd9dee820a8c371\"},\"dob\":{\"date\":\"1971-04-22T19:11:42.624Z\",\"age\":49},\"registered\":{\"date\":\"2008-04-08T16:40:52.595Z\",\"age\":12},\"phone\":\"075 115 31 73\",\"cell\":\"078 347 11 99\",\"id\":{\"name\":\"AVS\",\"value\":\"756.7248.9977.26\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/men/92.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/men/92.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/men/92.jpg\"},\"nat\":\"CH\"}],\"info\":{\"seed\":\"50cdeb0e3bc4c26a\",\"results\":1,\"page\":1,\"version\":\"1.3\"}}",
+    "headers" : {
+      "Date" : "Mon, 03 Aug 2020 12:24:19 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Set-Cookie" : "__cfduid=d550868f4b6df1aaa35961bdfa014a6e11596457459; expires=Wed, 02-Sep-20 12:24:19 GMT; path=/; domain=.randomuser.me; HttpOnly; SameSite=Lax",
+      "X-Powered-By" : "Express",
+      "Cache-Control" : "no-cache",
+      "ETag" : "W/\"4a0-g6MbHrYNQdDVh6feRYgORcK/Qog\"",
+      "Vary" : "Accept-Encoding",
+      "CF-Cache-Status" : "DYNAMIC",
+      "cf-request-id" : "0455e0b6730000067a6b1ac200000001",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "5bd003d0bc9c067a-LHR"
+    }
+  },
+  "uuid" : "13694f91-1058-4377-805b-cf7fc9fe0db7",
+  "persistent" : true,
+  "insertionIndex" : 18
+}

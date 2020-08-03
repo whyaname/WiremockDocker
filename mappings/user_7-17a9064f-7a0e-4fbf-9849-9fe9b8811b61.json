@@ -1,0 +1,29 @@
+{
+  "id" : "17a9064f-7a0e-4fbf-9849-9fe9b8811b61",
+  "name" : "user_7",
+  "request" : {
+    "url" : "/user/7",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"results\":[{\"gender\":\"male\",\"name\":{\"title\":\"Mr\",\"first\":\"Oskari\",\"last\":\"Jokinen\"},\"location\":{\"street\":{\"number\":5348,\"name\":\"Reijolankatu\"},\"city\":\"Imatra\",\"state\":\"Uusimaa\",\"country\":\"Finland\",\"postcode\":52944,\"coordinates\":{\"latitude\":\"-10.6392\",\"longitude\":\"-135.0859\"},\"timezone\":{\"offset\":\"+2:00\",\"description\":\"Kaliningrad, South Africa\"}},\"email\":\"oskari.jokinen@example.com\",\"login\":{\"uuid\":\"b388b2e7-f331-4f9d-b5b8-6f0003f92437\",\"username\":\"sadleopard492\",\"password\":\"east\",\"salt\":\"7pmh8JZn\",\"md5\":\"5db0a1227654c1ac1be632113a635de8\",\"sha1\":\"63dc09920054161cdf0b54f1317a767f2c9a6a1b\",\"sha256\":\"c8cdd9cf53709d0868dbfd518d5330bd9e795e29ba11bad3bb49d4a5b0a61588\"},\"dob\":{\"date\":\"1997-11-16T11:48:42.928Z\",\"age\":23},\"registered\":{\"date\":\"2002-11-01T09:22:28.618Z\",\"age\":18},\"phone\":\"02-295-122\",\"cell\":\"044-314-24-32\",\"id\":{\"name\":\"HETU\",\"value\":\"NaNNA513undefined\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/men/0.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/men/0.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/men/0.jpg\"},\"nat\":\"FI\"}],\"info\":{\"seed\":\"b01b617847e285c0\",\"results\":1,\"page\":1,\"version\":\"1.3\"}}",
+    "headers" : {
+      "Date" : "Mon, 03 Aug 2020 12:24:20 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Set-Cookie" : "__cfduid=de4ea9d27a07621a02833da1a719cd6b21596457460; expires=Wed, 02-Sep-20 12:24:20 GMT; path=/; domain=.randomuser.me; HttpOnly; SameSite=Lax",
+      "X-Powered-By" : "Express",
+      "Cache-Control" : "no-cache",
+      "ETag" : "W/\"483-YYyRp7QZGUPGEFry4XJolWApyxA\"",
+      "Vary" : "Accept-Encoding",
+      "CF-Cache-Status" : "DYNAMIC",
+      "cf-request-id" : "0455e0bc330000067a6b214200000001",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "5bd003d9ede8067a-LHR"
+    }
+  },
+  "uuid" : "17a9064f-7a0e-4fbf-9849-9fe9b8811b61",
+  "persistent" : true,
+  "insertionIndex" : 19
+}
