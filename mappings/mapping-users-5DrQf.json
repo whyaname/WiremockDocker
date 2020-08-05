@@ -1,0 +1,26 @@
+{
+  "id" : "141128e2-36a0-367f-9e26-8a0507868408",
+  "request" : {
+    "url" : "/users/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-users-5DrQf.json",
+    "headers" : {
+      "Date" : "Wed, 05 Aug 2020 10:37:07 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Set-Cookie" : "__cfduid=d573e109975ff5f90248220d6bef2cd511596623827; expires=Fri, 04-Sep-20 10:37:07 GMT; path=/; domain=.randomuser.me; HttpOnly; SameSite=Lax",
+      "X-Powered-By" : "Express",
+      "Cache-Control" : "no-cache",
+      "ETag" : "W/\"27fe0-FHuLu2szQIApdYs5LgE33C3krW8\"",
+      "Vary" : "Accept-Encoding",
+      "CF-Cache-Status" : "DYNAMIC",
+      "cf-request-id" : "045fcb490500009ccf2d274200000001",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "5bdfe1880eb39ccf-AMS"
+    }
+  },
+  "uuid" : "141128e2-36a0-367f-9e26-8a0507868408"
+}
