@@ -1,7 +1,5 @@
 package com.anava.spring;
 
-import java.util.LinkedHashMap;
-
 public class User {
     public String name;
     public String dob;
