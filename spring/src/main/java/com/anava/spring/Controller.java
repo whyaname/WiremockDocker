@@ -2,6 +2,7 @@ package com.anava.spring;
 
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
@@ -82,6 +83,24 @@ public class Controller {
             }
         }
         return users;
+    }
+
+    @GetMapping(value = "/user/{firstName}/{lastName}")
+    public String displaySingleUser(@PathVariable String firstName, @PathVariable String lastName,
+                                    Model model) throws NoSuchFieldException {
+        User user = returnSingleUser(firstName, lastName);
+        model.addAttribute("user", user);
+        return "single";
+    }
+
+    public User returnSingleUser(String firstName, String lastName) throws NoSuchFieldException {
+        List<User> users = returnUsers();
+        for (User user : users) {
+            if (user.first_name.equals(firstName) && user.last_name.equals(lastName)) {
+                return user;
+            }
+        }
+        throw new NoSuchFieldException("User doesn't exist");
     }
 }
 
